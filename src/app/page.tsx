@@ -67,7 +67,7 @@ export default function Page() {
                   size="icon"
                   asChild
                 >
-                  <a href={social.url}>
+                  <a target="_blank" href={social.url}>
                     <social.icon className="size-4" />
                   </a>
                 </Button>
@@ -93,20 +93,20 @@ export default function Page() {
           </Avatar>
         </div>
         <Section>
-          <h2 className="text-xl font-bold">About</h2>
+          <h2 className="text-xl font-bold">О себе</h2>
           <p className="text-pretty font-mono text-sm text-muted-foreground">
             {RESUME_DATA.summary}
           </p>
         </Section>
         <Section>
-          <h2 className="text-xl font-bold">Work Experience</h2>
+          <h2 className="text-xl font-bold">Опыт работы</h2>
           {RESUME_DATA.work.map((work) => {
             return (
               <Card key={work.company}>
                 <CardHeader>
                   <div className="flex items-center justify-between gap-x-2 text-base">
                     <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
-                      <a className="hover:underline" href={work.link}>
+                      <a target="_blank" className="hover:underline" href={work.link}>
                         {work.company}
                       </a>
 
@@ -139,7 +139,7 @@ export default function Page() {
           })}
         </Section>
         <Section>
-          <h2 className="text-xl font-bold">Education</h2>
+          <h2 className="text-xl font-bold">Образование</h2>
           {RESUME_DATA.education.map((education) => {
             return (
               <Card key={education.school}>
@@ -159,7 +159,7 @@ export default function Page() {
           })}
         </Section>
         <Section>
-          <h2 className="text-xl font-bold">Skills</h2>
+          <h2 className="text-xl font-bold">Навыки</h2>
           <div className="flex flex-wrap gap-1">
             {RESUME_DATA.skills.map((skill) => {
               return <Badge key={skill}>{skill}</Badge>;
@@ -167,8 +167,8 @@ export default function Page() {
           </div>
         </Section>
 
-        <Section className="print-force-new-page scroll-mb-16">
-          <h2 className="text-xl font-bold">Projects</h2>
+        {/* <Section className="print-force-new-page scroll-mb-16">
+          <h2 className="text-xl font-bold">Проекты</h2>
           <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
             {RESUME_DATA.projects.map((project) => {
               return (
@@ -182,10 +182,10 @@ export default function Page() {
               );
             })}
           </div>
-        </Section>
+        </Section> */}
       </section>
 
-      <CommandMenu
+      {/* <CommandMenu
         links={[
           {
             url: RESUME_DATA.personalWebsiteUrl,
@@ -196,7 +196,7 @@ export default function Page() {
             title: socialMediaLink.name,
           })),
         ]}
-      />
+      /> */}
     </main>
   );
 }
