@@ -27,22 +27,50 @@ export const RESUME_DATA = {
   about:
     "Fullstack разработчик",
   summary:
-`Участвовал в разных проектах как Frontend, так и Backend разработчик (создавал с нуля/поддерживал существующие). Имел опыт работы с TypeScript, React (Next.js), Node.js (Express), PostgresSQL/Clickhouse. Активный участник хакатонов, часто занимаю призовые места. Суммарный опыт работы - 2+ года.
+`Участвовал в разных проектах как Frontend, так и Backend разработчик (создавал с нуля/поддерживал существующие). Имел опыт работы с TypeScript, React (Next.js), Node.js (Express), PostgresSQL/Clickhouse. Имею опыт работы на фрилансе. Активный участник хакатонов, часто занимаю призовые места. Суммарный опыт работы - 2+ года.
 
 Список хакатонов, в которых я принимал участие в составе команды DIVAR:
-- Цифровой Прорыв: Lifetech – 1 место (Сентябрь 2021);
-- Цифровой Прорыв Финал: Онбординг - 22 место (2021 год);
-- VTB More.Tech 4.0 - 15 место (2022 год);
-- Молодёжный Бит - 4 место (Февраль 2023);
-- Всероссийские студенческие соревнования «День интернета». Дисциплина «Продуктовое программирование» – 1 место (Апрель 2023);
-- НЕЙМАРК.Хакатон "Умный кампус" - 2 место (Май 2023);
-- Всероссийский хакатон среди студентов в честь главы Чеченской республики, героя России Рамзана Ахматовича Кадырова – 3 место в онлайн зачёте (Октябрь 2023);
-- VTB More.Tech 5.0 - участники (2023 год);
-- Отборочный этап Чемпионата России по спортивному программированию - 4 место (2023 год);
-- Хакатон "UfaHack 2023" - члены жюри (Ноябрь 2023);
-- SELECTEL HACKATHON – 3 место (Февраль 2024);
-- Хакатон "UfaHack 2024" - члены жюри (Март 2024);
-- Moscow Travel Hack 2024 - участники (2024 год);`,
+- Цифровой Прорыв: Lifetech – 1 место (сентябрь 2021)
+  https://leadersofdigital.ru/event/63010/case/919927/results
+  https://vk.com/wall-87342965_5244
+
+- Лидеры цифровой трансформации 2021 - участники (октябрь 2021)
+
+- Цифровой Прорыв Финал: Онбординг - 22 место (декабрь 2021)
+
+- VTB More.Tech 4.0 - 15 место (октябрь 2022 год)
+
+- Молодёжный Бит - 4 место (февраль 2023)
+  https://youthbit.ru/shortlist.html (кликнуть на "Онбординг")
+
+- Всероссийские студенческие соревнования «День интернета». Дисциплина «Продуктовое программирование» – 1 место (апрель 2023)
+  https://fsp-russia.com/blog/news-20/
+  https://uust.ru/news/get/studenty-uunit-oderzhali-pobedu-na-vserossijskih-sorevnovaniyah-po-sportivnomu-programmirovaniyu/
+  
+- НЕЙМАРК.Хакатон "Умный кампус" - 2 место (май 2023)
+  https://vega52.ru/news/v-nizhnem-novgorode-zavershilsya3
+  https://uust.ru/news/get/v-mezhvuzovskom-studencheskom-kampuse-budet-svoya-sota/
+
+- Всероссийский хакатон среди студентов в честь главы Чеченской республики, героя России Рамзана Ахматовича Кадырова – 3 место в онлайн зачёте (октябрь 2023)
+  https://chechnyatoday.com/news/369369
+  https://uust.ru/news/get/studenty-ufimskogo-universiteta-blestyashe-vystupili-na-sostyazaniyah-po-programmirovaniyu/
+
+- VTB More.Tech 5.0 - участники (ноябрь 2023 год)
+
+- Отборочный этап Чемпионата России по спортивному программированию - 4 место (ноябрь 2023 год)
+
+- Хакатон "UfaHack 2023" - члены жюри (ноябрь 2023)
+
+- SELECTEL HACKATHON – 3 место (февраль 2024)
+  https://vk.com/wall-211211142_598
+
+- Хакатон "UfaHack 2024" - члены жюри (март 2024)
+
+- Moscow Travel Hack 2024 - участники (март 2024)
+
+Примеры некоторых активных проектов, которые я могу показать:
+ARPAKIT VPN: https://www.arpakitvpn.com/
+Сайт команды DIVAR: https://www.divarteam.ru/`,
   avatarUrl: "https://avatars.githubusercontent.com/PirateThunder",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
@@ -74,23 +102,49 @@ export const RESUME_DATA = {
       company: "OZNA Digital Solutions",
       link: "https://ozna.digital/",
       badges: [],
-      title: "Junior Fullstack Developer",
+      title: "Fullstack разработчик",
       logo: null,
       start: "авг 2023",
       end: "н.в.",
       description:
-        `Поддержка проектов, исправление багов и добавление новых фич; внедрение Clickhouse с применением буферных таблиц для ускорения загрузки/запросов данных, интеграция Collabora Office для редактирования отчётов в браузере, разработка OPC UA клиента, добавление новых страниц и логики для них как в браузере, так и на сервере. Также использовал ag-grid-table, plotly/chartjs, dayjs на фронте; libreoffice-converter, node-cron, nodemailer на бэке.`,
+`www.ozna.ru
+
+Разработка приложения для стенда. Позволяет осуществлять мониторинг нефтяных скважин по разным параметрам: нахождение на карте, редактирование мнемосхем, просмотр графиков по добыче, показания датчиков, автогенерация отчётов и их редактирование, плагины.
+
+- Поддержка проектов, исправление багов и добавление новых фич
+- внедрение Clickhouse с применением буферных таблиц для ускорения загрузки/запросов данных вместо Postgres и файловой БД
+- интеграция Collabora Office (open-source аналог пакета Office) для редактирования отчётов в браузере с написанием вспомогательного http/websocket сервера
+- разработка OPC UA клиента
+- добавление новых страниц и логики для них как на клиенте, так и на сервере
+- работа с графиками (plotly, chartjs)
+- работа с картой (react leaflet)
+- расписание задач на сервере (node-cron)
+- постепенный переход на TypeScript
+
+Активно использовал следующие технологии:
+Frontend: React, MobX, ChakraUI, ag-grid-table, plotly, chartjs, dayjs, leaflet, axios, websocket
+Backend: Express, Postgres, Clickhouse, libreoffice-converter, node-cron, nodemailer, node-opcua, SSL, ws`,
     },
     {
       company: 'НИЛ "Лаборатория прикладной биофотоники"',
       link: "https://uust.ru/research/centers/applied-biophotonics/",
       badges: ["Удалённо"],
-      title: "Frontend Developer",
+      title: "Frontend разработчик",
       logo: null,
-      start: "ноя 2023",
-      end: "дек 2023",
+      start: "июн 2023",
+      end: "июл 2023",
       description:
-        "Разрабатывал внутреннюю веб-платформу для сотрудников медицинской лаборатории. Основной стек: TypeScript/SWR/NextJS/shadcn-ui, также использовал Cropper, react-hook-form, zod.",
+`uust.ru/research/centers/applied-biophotonics/
+
+Разрабатывал внутреннюю веб-платформу для сотрудников медицинской лаборатории. Позволяет загружать анализы пациентов: фотокарточки, описание, диагноз, остальную врачебную информацию.
+
+- реализация авторизации, личного кабинета
+- использование TypeScript, Zod для типизации
+- использование SWR как лёгкого серверного стейт-менеджера
+- использование shadcn-ui как основной headless ui библиотеки
+- использование Cropper для выделения конкретной области изображения прямо в браузере
+
+Основной стек: TypeScript/SWR/NextJS/shadcn-ui; также использовал Cropper, react-hook-form, zod.`,
     },
   ],
   skills: [

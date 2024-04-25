@@ -131,7 +131,7 @@ export default function Page() {
                     {work.title}
                   </h4>
                 </CardHeader>
-                <CardContent className="mt-2 text-xs">
+                <CardContent className="mt-2 text-xs whitespace-pre-wrap">
                   {work.description}
                 </CardContent>
               </Card>
