@@ -94,7 +94,7 @@ export default function Page() {
         </div>
         <Section>
           <h2 className="text-xl font-bold">О себе</h2>
-          <p className="text-pretty font-mono text-sm text-muted-foreground whitespace-pre-wrap">
+          <p className="text-pretty font-mono text-sm text-muted-foreground whitespace-pre-wrap break-words">
             {RESUME_DATA.summary}
           </p>
         </Section>
@@ -131,7 +131,7 @@ export default function Page() {
                     {work.title}
                   </h4>
                 </CardHeader>
-                <CardContent className="mt-2 text-xs whitespace-pre-wrap">
+                <CardContent className="mt-2 text-xs whitespace-pre-wrap break-words">
                   {work.description}
                 </CardContent>
               </Card>
