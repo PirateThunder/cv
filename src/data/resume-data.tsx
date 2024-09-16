@@ -103,7 +103,7 @@ ARPAKIT VPN: https://www.arpakitvpn.com/
     {
       company: "Т1",
       link: "https://t1.ru/",
-      badges: [],
+      badges: ["Удалённо"],
       title: "Frontend разработчик",
       logo: null,
       start: "июл 2024",
@@ -118,7 +118,7 @@ ARPAKIT VPN: https://www.arpakitvpn.com/
     {
       company: "OZNA Digital Solutions",
       link: "https://ozna.digital/",
-      badges: [],
+      badges: ["Очно"],
       title: "Fullstack разработчик",
       logo: null,
       start: "авг 2023",
