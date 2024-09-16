@@ -29,7 +29,7 @@ export const RESUME_DATA = {
   summary:
 `Участвовал в разных проектах как Frontend, так и Backend разработчик (создавал с нуля/поддерживал существующие). Имел опыт работы с TypeScript, React (Next.js), Node.js (Express), PostgresSQL/Clickhouse. Имею опыт работы на фрилансе. Активный участник хакатонов, часто занимаю призовые места. Суммарный опыт работы - 2+ года.
 
-Список хакатонов, в которых я принимал участие в составе команды DIVAR:
+Список хакатонов, в которых я принимал участие:
 - Цифровой Прорыв: Lifetech – 1 место (сентябрь 2021)
   https://leadersofdigital.ru/event/63010/case/919927/results
   https://vk.com/wall-87342965_5244
@@ -106,7 +106,7 @@ ARPAKIT VPN: https://www.arpakitvpn.com/
       badges: [],
       title: "Frontend разработчик",
       logo: null,
-      start: "июл 2023",
+      start: "июл 2024",
       end: "н.в.",
       description:
 `https://t1.ru/
