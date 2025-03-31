@@ -136,8 +136,8 @@ Backend: paramiko, poetry`,
       badges: ["Очно"],
       title: "Fullstack разработчик",
       logo: null,
-      start: "авг 2023",
-      end: "май 2024",
+      start: "июл 2023",
+      end: "июн 2024",
       description:
 `https://ozna.digital/
 
@@ -163,8 +163,8 @@ Backend: Express, Postgres, Clickhouse, libreoffice-converter, node-cron, nodema
       badges: ["Удалённо"],
       title: "Frontend разработчик",
       logo: null,
-      start: "июн 2023",
-      end: "июл 2023",
+      start: "апр 2023",
+      end: "июн 2023",
       description:
 `uust.ru/research/centers/applied-biophotonics/
 
