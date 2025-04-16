@@ -27,52 +27,7 @@ export const RESUME_DATA = {
   about:
     "Fullstack разработчик",
   summary:
-`Участвовал в разных проектах как Frontend, так и Backend разработчик (создавал с нуля/поддерживал существующие). Имел опыт работы с TypeScript, React (Next.js), Node.js (Express), PostgresSQL/Clickhouse. Имею опыт работы на фрилансе. Активный участник хакатонов, часто занимаю призовые места. Суммарный опыт работы - 2+ года.
-
-Список хакатонов, в которых я принимал участие:
-- Цифровой Прорыв: Lifetech – 1 место (сентябрь 2021)
-  https://leadersofdigital.ru/event/63010/case/919927/results
-  https://vk.com/wall-87342965_5244
-
-- Лидеры цифровой трансформации 2021 - участники (октябрь 2021)
-
-- Цифровой Прорыв Финал: Онбординг - 22 место (декабрь 2021)
-
-- VTB More.Tech 4.0 - 15 место (октябрь 2022 год)
-
-- Молодёжный Бит - 4 место (февраль 2023)
-  https://youthbit.ru/shortlist.html (кликнуть на "Онбординг")
-
-- Всероссийские студенческие соревнования «День интернета». Дисциплина «Продуктовое программирование» – 1 место (апрель 2023)
-  https://fsp-russia.com/blog/news-20/
-  https://uust.ru/news/get/studenty-uunit-oderzhali-pobedu-na-vserossijskih-sorevnovaniyah-po-sportivnomu-programmirovaniyu/
-  
-- НЕЙМАРК.Хакатон "Умный кампус" - 2 место (май 2023)
-  https://vega52.ru/news/v-nizhnem-novgorode-zavershilsya3
-  https://uust.ru/news/get/v-mezhvuzovskom-studencheskom-kampuse-budet-svoya-sota/
-
-- Всероссийский хакатон среди студентов в честь главы Чеченской республики, героя России Рамзана Ахматовича Кадырова – 3 место в онлайн зачёте (октябрь 2023)
-  https://chechnyatoday.com/news/369369
-  https://uust.ru/news/get/studenty-ufimskogo-universiteta-blestyashe-vystupili-na-sostyazaniyah-po-programmirovaniyu/
-
-- VTB More.Tech 5.0 - участники (ноябрь 2023 год)
-
-- Отборочный этап Чемпионата России по спортивному программированию - 4 место (ноябрь 2023 год)
-
-- Хакатон "UfaHack 2023" - члены жюри (ноябрь 2023)
-
-- SELECTEL HACKATHON – 3 место (февраль 2024)
-  https://vk.com/wall-211211142_598
-
-- Хакатон "UfaHack 2024" - члены жюри (март 2024)
-
-- Moscow Travel Hack 2024 - участники (март 2024)
-
-- II корпоративный хакатон ПАО «Татнефть» «ТехШторм» - 2 место (август 2024)
-
-Примеры некоторых активных проектов, которые я могу показать:
-ARPAKIT VPN: https://www.arpakitvpn.com/
-Сайт команды DIVAR: https://www.divarteam.ru/`,
+`Участвовал в разных проектах как Frontend, так и Backend разработчик (создавал с нуля/поддерживал существующие). Имел опыт работы с TypeScript, React (Next.js), Node.js (Express), PostgresSQL/Clickhouse. Имею опыт работы на фрилансе. Активный участник хакатонов, часто занимаю призовые места. Суммарный опыт работы - 3+ года.
   avatarUrl: "https://avatars.githubusercontent.com/PirateThunder",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
@@ -177,6 +132,88 @@ Backend: Express, Postgres, Clickhouse, libreoffice-converter, node-cron, nodema
 - использование Cropper для выделения конкретной области изображения прямо в браузере
 
 Основной стек: TypeScript/SWR/NextJS/shadcn-ui; также использовал Cropper, react-hook-form, zod.`,
+    },
+    {
+      company: 'Gamer Market',
+      link: "https://gamer.market",
+      badges: ["Удалённо"],
+      title: "Frontend разработчик",
+      logo: null,
+      start: "окт 2022",
+      end: "март 2023",
+      description:
+`gamer.market
+
+Создание сайта для покупок внутриигровой валюты и предметов. 
+
+- использование fsd архитектуры 
+- реализация авторизации, личного кабинета
+- логика использования промокодов и реферальных ссылок
+- форма покупки товара
+- чат поддержки через виджет Crisp API
+- полный цикл чистоты кода (vitest, prettier, eslint, husky)
+
+Основной стек: TypeScript, NextJS, shadcn-ui, auth.js, cookies-next,  react-hook-form, zod, date-fns, axios, crisp api, pnpm, volta, eslint, prettier, husky, vitest`,
+    },
+    {
+      company: 'Хакатоны, фриланс',
+      link: "",
+      badges: ["Очно", "Удалённо"],
+      title: "Frontend разработчик",
+      logo: null,
+      start: "янв 2022",
+      end: "окт 2022",
+      description:
+`
+Разрабатывал внутреннюю веб-платформу для сотрудников медицинской лаборатории. Позволяет загружать анализы пациентов: фотокарточки, описание, диагноз, остальную врачебную информацию.
+Активное участие в хакатонах, фриланс. Имеются упоминания в СМИ и сертификаты по ссылкам ниже. Перед ними происходила недельная+ подготовка (выбор инструментов, исследование предметной области). За счёт этого часто менял технологии для конкретного кейса.
+
+Список технологий: HTML/CSS/JS, Bootstrap, Tailwind CSS, daisy ui, shadcn ui, React, Next.js, Vite, MaterialUI, axios/fetch, zod, TypeScript, jwt, access/refresh token, recharts, plotly, авторизация, система ролей, crud
+
+Список хакатонов, в которых я принимал участие:
+- Цифровой Прорыв: Lifetech – 1 место (сентябрь 2021)
+  https://leadersofdigital.ru/event/63010/case/919927/results
+  https://vk.com/wall-87342965_5244
+
+- Лидеры цифровой трансформации 2021 - участники (октябрь 2021)
+
+- Цифровой Прорыв Финал: Онбординг - 22 место (декабрь 2021)
+
+- VTB More.Tech 4.0 - 15 место (октябрь 2022 год)
+
+- Молодёжный Бит - 4 место (февраль 2023)
+  https://youthbit.ru/shortlist.html (кликнуть на "Онбординг")
+
+- Всероссийские студенческие соревнования «День интернета». Дисциплина «Продуктовое программирование» – 1 место (апрель 2023)
+  https://fsp-russia.com/blog/news-20/
+  https://uust.ru/news/get/studenty-uunit-oderzhali-pobedu-na-vserossijskih-sorevnovaniyah-po-sportivnomu-programmirovaniyu/
+  
+- НЕЙМАРК.Хакатон "Умный кампус" - 2 место (май 2023)
+  https://vega52.ru/news/v-nizhnem-novgorode-zavershilsya3
+  https://uust.ru/news/get/v-mezhvuzovskom-studencheskom-kampuse-budet-svoya-sota/
+
+- Всероссийский хакатон среди студентов в честь главы Чеченской республики, героя России Рамзана Ахматовича Кадырова – 3 место в онлайн зачёте (октябрь 2023)
+  https://chechnyatoday.com/news/369369
+  https://uust.ru/news/get/studenty-ufimskogo-universiteta-blestyashe-vystupili-na-sostyazaniyah-po-programmirovaniyu/
+
+- VTB More.Tech 5.0 - участники (ноябрь 2023 год)
+
+- Отборочный этап Чемпионата России по спортивному программированию - 4 место (ноябрь 2023 год)
+
+- Хакатон "UfaHack 2023" - члены жюри (ноябрь 2023)
+
+- SELECTEL HACKATHON – 3 место (февраль 2024)
+  https://vk.com/wall-211211142_598
+
+- Хакатон "UfaHack 2024" - члены жюри (март 2024)
+
+- Moscow Travel Hack 2024 - участники (март 2024)
+
+- Tatneft Второй корпоративный хакатон - участники (август 2024)
+
+Примеры некоторых активных проектов, которые я могу показать:
+ARPAKIT VPN: https://www.arpakitvpn.com/
+Сайт команды DIVAR: https://www.divarteam.ru/.`,
     },
   ],
   skills: [
