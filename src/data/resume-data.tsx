@@ -165,7 +165,6 @@ Backend: Express, Postgres, Clickhouse, libreoffice-converter, node-cron, nodema
       end: "окт 2022",
       description:
 `
-Разрабатывал внутреннюю веб-платформу для сотрудников медицинской лаборатории. Позволяет загружать анализы пациентов: фотокарточки, описание, диагноз, остальную врачебную информацию.
 Активное участие в хакатонах, фриланс. Имеются упоминания в СМИ и сертификаты по ссылкам ниже. Перед ними происходила недельная+ подготовка (выбор инструментов, исследование предметной области). За счёт этого часто менял технологии для конкретного кейса.
 
 Список технологий: HTML/CSS/JS, Bootstrap, Tailwind CSS, daisy ui, shadcn ui, React, Next.js, Vite, MaterialUI, axios/fetch, zod, TypeScript, jwt, access/refresh token, recharts, plotly, авторизация, система ролей, crud
