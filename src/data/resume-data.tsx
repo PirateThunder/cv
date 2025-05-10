@@ -27,7 +27,7 @@ export const RESUME_DATA = {
   about:
     "Fullstack разработчик",
   summary:
-`Участвовал в разных проектах как Frontend, так и Backend разработчик (создавал с нуля/поддерживал существующие). Имел опыт работы с TypeScript, React (Next.js), Node.js (Express), PostgresSQL/Clickhouse. Имею опыт работы на фрилансе. Активный участник хакатонов, часто занимаю призовые места. Суммарный опыт работы - 3+ года.
+`Участвовал в разных проектах как Frontend, так и Backend разработчик (создавал с нуля/поддерживал существующие). Имел опыт работы с TypeScript, React (Next.js), Node.js (Express), PostgresSQL/Clickhouse. Имею опыт работы на фрилансе. Активный участник хакатонов, часто занимаю призовые места. Суммарный опыт работы - 3+ года.`,
   avatarUrl: "https://avatars.githubusercontent.com/PirateThunder",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
